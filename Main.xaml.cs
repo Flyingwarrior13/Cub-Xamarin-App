@@ -18,9 +18,9 @@ namespace Cub
             treeTypeList = Constants.TreeTypeList; 
             treeType.ItemsSource = treeTypeList;
 
-            generateTable(6, 22, 0);
-            generateTable(24, 40, 1);
-            generateTable(42, 58, 2);
+            generateTable(6, 32, 0);
+            generateTable(34, 60, 1);
+            generateTable(62, 88, 2);
 
             void generateTable(int start, int end, int column)
             {
